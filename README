@@ -1,0 +1,11 @@
+# i18n
+
+Internacionalização com PHP
+http://php.net/manual/pt_BR/book.gettext.php
+
+### Comandos
+xgettext -n index.php (Cria arquivo messages.po com todas as chaves _(chave) usado nos textos )
+msgfmt messages.po (Cria o arquivo binário com nome de messages.mg que deve ser colocado dentro de locale/fr_FR/LC_MESSAGES)
+
+### Dicas
+Toda vez que um novo arquivo binário for criado deve-se restartar o servidor
